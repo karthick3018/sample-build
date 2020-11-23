@@ -560,30 +560,6 @@ input[id=year]:focus {
   border-bottom: 1px solid #007aff;
 }
 
-h1[id='calc']::before{
-  position: absolute;
-  content: "";
-  background-image: url(/08d05674b21235ab76f5ef5a3b016808.svg);
-  background-repeat: no-repeat;
-  background-size: 18px;
-  width: 21px;
-  left: 2px;
-  top: -1px;
-  height: 22px;
-}
-
-span[id="step"]::after{
-  position: absolute;
-  content: "";
-  background-image: url(/5f12abf695b20e637020997ee9de3ce6.svg);
-  background-repeat: no-repeat;
-  background-size: 13px;
-  width: 19px;
-  right: 19px;
-  top: -2px;
-  height: 14px;
-}
-
 .track.track-0{
   background: #007aff;
 }
@@ -1186,6 +1162,10 @@ video {
   align-self: stretch;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -1297,6 +1277,10 @@ video {
   outline-offset: 2px;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -1349,12 +1333,16 @@ video {
   padding-left: 1.5rem;
 }
 
-.pl-7 {
-  padding-left: 1.75rem;
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .pt-16 {
   padding-top: 16px;
+}
+
+.pl-10\.25 {
+  padding-left: 10.25px;
 }
 
 .static {
